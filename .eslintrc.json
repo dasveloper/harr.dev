@@ -1,0 +1,32 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb", "prettier"],
+  "plugins": ["simple-import-sort"], 
+  "settings": {
+    "import/resolver": {
+      "alias": [
+          ["@/styles", "./styles"],
+          ["@/components", "./components"]
+      ]
+    }
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off", // Needed to allow .js pages/components
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], // Needed to allow .js pages/components
+    "jsx-a11y/anchor-is-valid": "off", // Needed too allow Next Links
+    "react/jsx-props-no-spreading": "off", // Needed too allow App "pageProps" to be spread
+    "react/prop-types": "off", // Leaving proptypes off
+    "import/no-extraneous-dependencies": "off", // Allow tailwind to live in dev dependencies
+    "simple-import-sort/imports": "error", // Force eslint to sort imports
+    "simple-import-sort/exports": "error", // Force eslint to sort exports
+    "jsx-a11y/label-has-associated-control": ["error", { // Allow form labels to nest or use ID
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }],
+    "jsx-a11y/label-has-for": ["error", {  // Allow form labels to nest or use ID
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }]
+  }
+}
