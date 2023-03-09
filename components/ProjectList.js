@@ -47,7 +47,7 @@ const projects = [
     website: 'https://hitcount.app',
     github: null,
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde.',
+      'A modern take on old school hitcounters, using dynamically generated images to display your number of visitors.',
     logo: '/logos/hitcountapp.png',
   },
   {

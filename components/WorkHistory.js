@@ -3,12 +3,12 @@ import { TbCalendar, TbMapPin, TbUser } from 'react-icons/tb'
 export default function WorkHistory() {
   const jobs = [
     {
-      name: 'Captech Consulting',
+      name: 'CapTech Consulting',
       position: 'Sr. Consultant',
       dates: 'Feb 2020 – Present',
       location: 'Richmond, VA',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde.',
+        'I worked as a front-end developer and consultant for a fortune 500 client and mentored new web devlopers.',
     },
     {
       name: 'Crutchfield',
@@ -16,7 +16,7 @@ export default function WorkHistory() {
       dates: 'Feb 2014 – Feb. 2020',
       location: 'Charlottesville, VA',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde.',
+        'As the senior front-end web developer it was my job to build the eCommerce web pages used by millions of customers.',
     },
     {
       name: 'Virginia Economic Development Partnership',
@@ -24,7 +24,7 @@ export default function WorkHistory() {
       dates: 'May 2014 – Aug. 2014',
       location: 'Richmond, VA',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde.',
+        'As a VEDP intern it was my job to build tools and web pages to attract companies to do business to Virginia',
     },
   ]
   return (

@@ -11,9 +11,9 @@ export default function Contact() {
           Get in touch
         </h2>
         <p className="mt-4 text-lg leading-8 text-neutral-600 dark:text-neutral-400">
-          Proin volutpat consequat porttitor cras nullam gravida at. Orci
-          molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu
-          sed malesuada et magna.
+          Want to reach out about a job opportunity or just to talk about a fun
+          project? Send me an email or contact me through this form and I&apos;d
+          be happy to chat!
         </p>
         <a
           href="mailto:j@harr.dev"

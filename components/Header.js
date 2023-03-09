@@ -58,9 +58,9 @@ export default function Header() {
           Hello!
         </h1>
         <p className="mx-auto mt-3 max-w-2xl text-lg leading-8 text-neutral-600 dark:text-neutral-400">
-          My name is <b>Justin Harr</b> and I&apos;ve been a web developer for
-          nearly a decade. Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit.
+          I&apos;m <b>Justin Harr</b>, a web developer and consultant. I&apos;ve
+          been building websites for almost 10 years, both for fun and
+          professionally.
         </p>
 
         <a
