@@ -9,6 +9,7 @@ const projects = [
     description:
       'Form-backend SAAS to collect form submission without needing to setup a serve or database.',
     logo: '/logos/jamform.png',
+    tech: ['Next.js', 'Vercel', 'Tailwind', 'Stripe', 'MongoDB', 'Passport'],
   },
   {
     name: 'Menustash',
@@ -17,6 +18,15 @@ const projects = [
     description:
       'A simple, affordable, SAAS for hosting restauraunt menus with built in QR code support and analytics.',
     logo: '/logos/menustash.png',
+    tech: [
+      'Next.js',
+      'Vercel',
+      'Mantine',
+      'Stripe',
+      'MongoDB',
+      'Clerk',
+      'AWS S3',
+    ],
   },
   {
     name: "World's Best Mug",
@@ -25,6 +35,7 @@ const projects = [
     description:
       "eCommerce store that sells custom World's Best mugs from World's Best Boss to World's Best Bull Fighter.",
     logo: '/logos/worldsbestmug.png',
+    tech: ['Next.js', 'Vercel', 'Mantine', 'Sharp', 'Snipcart'],
   },
   {
     name: 'Resbin',
@@ -33,6 +44,7 @@ const projects = [
     description:
       'Mock API service to build out placeholder API responses while developing your frontend.',
     logo: '/logos/resbin.png',
+    tech: ['Next.js', 'Vercel', 'Tailwind', 'Upstash Redis'],
   },
   {
     name: 'Colorwaze',
@@ -41,6 +53,7 @@ const projects = [
     description:
       "Explore over 4.2 billion colors with details on it's name, variants, accessibility, and more.",
     logo: '/logos/colorwaze.png',
+    tech: ['Next.js', 'Vercel', 'Tailwind', 'Next-Auth'],
   },
   {
     name: 'Hitcount',
@@ -49,6 +62,7 @@ const projects = [
     description:
       'A modern take on old school hitcounters, using dynamically generated images to display your number of visitors.',
     logo: '/logos/hitcountapp.png',
+    tech: ['Next.js', 'Vercel', 'Tailwind', 'Upstash Redis'],
   },
   {
     name: 'Tailcolor',
@@ -57,6 +71,7 @@ const projects = [
     description:
       'Generate full Tailwind CSS color palettes from a single color.',
     logo: '/logos/tailcolor.png',
+    tech: ['Next.js', 'Vercel', 'Tailwind', 'Upstash Redis'],
   },
   {
     name: 'Timerpage',
@@ -65,6 +80,7 @@ const projects = [
     description:
       'Simple, sharable, countdown timers of any duration from 1 second to 1000+ days.',
     logo: '/logos/timerpage.png',
+    tech: ['Next.js', 'Vercel', 'Tailwind'],
   },
   {
     name: 'Hyclass',
@@ -72,6 +88,7 @@ const projects = [
     github: 'https://github.com/dasveloper/hyclass',
     description: 'A tiny (162b gzip) utility for hydrating className strings.',
     logo: '/logos/npm.png',
+    tech: ['Javascript', 'npm'],
   },
 ]
 
@@ -104,6 +121,17 @@ export default function ProjectList() {
             <p className="relative mt-2 text-sm text-neutral-600 dark:text-neutral-400">
               {project.description}
             </p>
+
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              {project.tech?.map((skill) => (
+                <span
+                  key={skill}
+                  className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-[10px] font-medium uppercase text-gray-800"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
             {project.website && (
               <a
                 href={project.website}
