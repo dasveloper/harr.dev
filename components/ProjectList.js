@@ -126,7 +126,7 @@ export default function ProjectList() {
               {project.tech?.map((skill) => (
                 <span
                   key={skill}
-                  className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-[10px] font-medium uppercase text-gray-800"
+                  className="inline-flex items-center rounded-full border border-neutral-200 px-2.5 py-0.5 text-[10px] font-medium uppercase text-neutral-600 dark:border-neutral-700 dark:text-neutral-400"
                 >
                   {skill}
                 </span>
