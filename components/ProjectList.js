@@ -3,13 +3,41 @@ import { TbBrandGithub, TbLink } from 'react-icons/tb'
 
 const projects = [
   {
+    name: 'Flagpoll',
+    website: 'https://flagpoll.vercel.app',
+    github: 'https://github.com/dasveloper/flagpoll/settings',
+    description:
+      'A feature flag service that allows you to quickly and easily setup feature flags to turn features on and off without redploys.',
+    logo: '/logos/flagpoll.png',
+    tech: [
+      'T3',
+      'Next.js',
+      'React',
+      'Typescript',
+      'TRPC',
+      'Prisma',
+      'Tailwind',
+      'Planetscale',
+      'NextAuth.js',
+      'Vercel',
+    ],
+  },
+  {
     name: 'Jamform',
     website: 'https://jamform.com',
     github: null,
     description:
       'Form-backend SAAS to collect form submission without needing to setup a serve or database.',
     logo: '/logos/jamform.png',
-    tech: ['Next.js', 'Vercel', 'Tailwind', 'Stripe', 'MongoDB', 'Passport'],
+    tech: [
+      'Next.js',
+      'React',
+      'Tailwind',
+      'Stripe',
+      'MongoDB',
+      'Passport',
+      'Vercel',
+    ],
   },
   {
     name: 'Menustash',
@@ -20,12 +48,13 @@ const projects = [
     logo: '/logos/menustash.png',
     tech: [
       'Next.js',
-      'Vercel',
+      'React',
       'Mantine',
       'Stripe',
       'MongoDB',
       'Clerk',
       'AWS S3',
+      'Vercel',
     ],
   },
   {
@@ -35,7 +64,7 @@ const projects = [
     description:
       "eCommerce store that sells custom World's Best mugs from World's Best Boss to World's Best Bull Fighter.",
     logo: '/logos/worldsbestmug.png',
-    tech: ['Next.js', 'Vercel', 'Mantine', 'Sharp', 'Snipcart'],
+    tech: ['Next.js', 'React', 'Mantine', 'Sharp', 'Snipcart', 'Vercel'],
   },
   {
     name: 'Resbin',
@@ -44,7 +73,7 @@ const projects = [
     description:
       'Mock API service to build out placeholder API responses while developing your frontend.',
     logo: '/logos/resbin.png',
-    tech: ['Next.js', 'Vercel', 'Tailwind', 'Upstash Redis'],
+    tech: ['Next.js', 'React', 'Tailwind', 'Upstash Redis', 'Vercel'],
   },
   {
     name: 'Colorwaze',
@@ -53,7 +82,7 @@ const projects = [
     description:
       "Explore over 4.2 billion colors with details on it's name, variants, accessibility, and more.",
     logo: '/logos/colorwaze.png',
-    tech: ['Next.js', 'Vercel', 'Tailwind', 'Next-Auth'],
+    tech: ['Next.js', 'React', 'Tailwind', 'Next-Auth', 'Vercel'],
   },
   {
     name: 'Hitcount',
@@ -62,7 +91,7 @@ const projects = [
     description:
       'A modern take on old school hitcounters, using dynamically generated images to display your number of visitors.',
     logo: '/logos/hitcountapp.png',
-    tech: ['Next.js', 'Vercel', 'Tailwind', 'Upstash Redis'],
+    tech: ['Next.js', 'React', 'Tailwind', 'Upstash Redis', 'Vercel'],
   },
   {
     name: 'Tailcolor',
@@ -71,7 +100,7 @@ const projects = [
     description:
       'Generate full Tailwind CSS color palettes from a single color.',
     logo: '/logos/tailcolor.png',
-    tech: ['Next.js', 'Vercel', 'Tailwind', 'Upstash Redis'],
+    tech: ['Next.js', 'React', 'Tailwind', 'Upstash Redis', 'Vercel'],
   },
   {
     name: 'Timerpage',
@@ -80,7 +109,7 @@ const projects = [
     description:
       'Simple, sharable, countdown timers of any duration from 1 second to 1000+ days.',
     logo: '/logos/timerpage.png',
-    tech: ['Next.js', 'Vercel', 'Tailwind'],
+    tech: ['Next.js', 'React', 'Tailwind', 'Vercel'],
   },
   {
     name: 'Hyclass',
@@ -89,6 +118,24 @@ const projects = [
     description: 'A tiny (162b gzip) utility for hydrating className strings.',
     logo: '/logos/npm.png',
     tech: ['Javascript', 'npm'],
+  },
+  {
+    name: 'Scrambly',
+    website: 'https://scrambly.vercel.app',
+    github: 'https://github.com/dasveloper',
+    description:
+      'A tool that lets you hide images by scrambling and unscramblong the pixels using a password.',
+    logo: '/logos/scrambly.png',
+    tech: ['Next.js', 'React', 'Tailwind', 'Vercel'],
+  },
+  {
+    name: 'Swatchy',
+    website: null,
+    github: 'https://github.com/dasveloper/swatchy',
+    description:
+      'A Chrome extension that lets you save and access colors in your browser and copy/paste their hex and RGB values.',
+    logo: '/logos/swatchy.png',
+    tech: ['React', 'Mantine', 'Chrome'],
   },
 ]
 
